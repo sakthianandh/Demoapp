@@ -2,9 +2,9 @@
   "name": "demoapp",
   "version": "1.0.0",
   "description": "hi",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sakthianandh/Demoapp/issues"
   },
-  "homepage": "https://github.com/sakthianandh/Demoapp#readme"
+  "homepage": "https://github.com/sakthianandh/Demoapp#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
 }
