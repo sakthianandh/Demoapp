@@ -1,4 +1,4 @@
-const createUser = (req,res) => {
+const createUser = (req, res) => {
     res.send(req.body)
 }
 
